@@ -1,0 +1,19 @@
+.container {
+    border: 1px solid;
+    padding: 2rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+.container form label {
+    width: 300px;
+    font-size: 20px;
+}
+.container form input {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.container form i{
+    cursor: pointer;
+}

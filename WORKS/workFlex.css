@@ -1,0 +1,332 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 236, 223);
+}
+
+.logo{
+    padding-left: 1vh;
+}
+
+.button{
+    padding-right: 1vh;
+}
+
+.button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.button a:hover{
+    background-color: rgb(69, 64, 64);
+}
+
+nav .home a {
+    padding: 4px 2rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+nav .home a:hover {
+    color: rgb(100, 96, 96);
+    /* background-color: rgb(237, 209, 199); */
+}
+
+nav .home a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orangered;
+}
+
+nav .home a:hover::after {
+    width: 100%;
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vh;
+    justify-content: space-around;
+}
+
+.container1{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first .container2{
+    width: 50%;
+    /* height: 400px; */
+    /* background-image: url(assets/Images/png-transparent-accounting-information-system-finance-computer-icons-accountant-first-price-orange-logo-business-removebg-preview.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+    position: relative;
+}
+
+.container2 a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    
+}
+
+.container1 .button1 .back{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 18px;
+}
+
+.container1 .button1 .noback{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.people{
+    display: flex;
+}
+
+.finimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.finance{
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    margin: 30px;
+}
+
+
+
+.third .th_container1{
+    width: 50%;
+}
+
+.third .th_container2{
+    width: 50%;
+}
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fourth h2{
+    padding-top: 8px;
+}
+
+.box{
+    width: 45%;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+
+.one{
+    background-color: beige;
+    padding: 30px;
+}
+.two{
+    background-color: rgb(177, 229, 245);
+    padding: 30px;
+}
+.three{
+    background-color: rgb(240, 240, 149);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.four{
+    background-color: rgb(251, 186, 237);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.fifth .column1{
+    width: 50%;
+}
+
+.fifth .column2{
+    width: 50%;
+    background-image: url(assets/Images/pexels-breakingpic-3305.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.column2 .right{
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 160px;
+    top: 12px;
+    right: 12px;
+    border-radius: 15px;
+}
+
+.column2 .left{
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 160px;
+    left: 12px;
+    bottom: 12px;
+    text-align: center;
+
+}
+
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.eight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.eight img{
+    width: 100px;
+    height: 90px;
+}
+
+.ninth{
+    background-color: rgb(251, 231, 206);
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.ninth img{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 320px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: rgb(246, 236, 223);
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column{
+    flex: 200px;
+    padding: 10px 0;
+}
+
+.logo2{
+    width: 145px; 
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.column h2{
+    margin-bottom: 30px;
+}
+
+.email{
+    width: fit-content;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+form{
+    padding-top: 20px;
+}
+
+form input{
+    background-color: white;
+    border: 0;
+    height: 30px;
+}
+
+form button{
+    background-color: orangered;
+    border: none;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(236, 117, 74);
+}
+
+@media(max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+    .first{
+        display: block;
+    }
+    .container1{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .fifth{
+        flex-direction: column;
+    }
+}

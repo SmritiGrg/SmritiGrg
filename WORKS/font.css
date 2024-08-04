@@ -1,0 +1,17 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap'); */
+
+/* p{
+    font-family: "Playwrite HR Lijeva", cursive;
+} */
+
+@font-face{
+    font-family: "MyFont";
+    src: url("assets/fonts/DraftCartoon-Bold.ttf");
+}
+
+.font{
+    font-family: "MyFont";
+    font-size: 150PX;
+}
+

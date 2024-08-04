@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$red:red;
+
+.main{
+    background-color: rgb(161, 200, 235);
+    padding: 1rem;
+    margin: 1rem;
+    .sub{
+        background-color: $red;
+        padding: 1rem;
+    }
+    a{
+        background-color: beige;
+        padding: 1rem;
+        display: inline-block;
+        &:hover{
+            background-color: rgb(141, 141, 127);
+        }
+    }
+    .sub-2{
+        .sub-3{
+            p{
+                color: aquamarine;
+                font-size: 30px;
+                background-color: black;
+                border-radius: 50px;
+                width: 40%;
+                margin-top: 20px;
+            }
+        }
+    }
+}

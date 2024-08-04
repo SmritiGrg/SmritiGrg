@@ -1,0 +1,55 @@
+.animation{
+    padding: 3rem;
+}
+
+.btn{
+    background-color: rgb(183, 213, 239);
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 12px;
+    display: inline-block;
+    /* transition: 1s ease-in; */
+    animation: motoGp 2s ease-in infinite;
+    position: relative;
+}
+
+.btn:hover{
+    /* transform: translate(0rem, -1rem); */
+    /* transform: rotate(90deg); */
+    /* transform: scale(2,2); */
+    transform: skew(50deg);
+
+}
+
+@keyframes motoGp{
+    0%{
+        background-color: red; 
+        left: 0px; 
+        top: 0px;
+    }
+    25%  {
+        background-color: yellow;
+         left: 200px; 
+         top: 0px; 
+         transform: rotate(200deg);
+    }
+    50%  {
+        background-color: blue; 
+        left: 200px; 
+        top: 200px; 
+    }
+
+    75%  {
+        background-color: rgb(12, 12, 32); 
+        left: 0px; 
+        top: 200px; }
+
+    
+
+    100% {
+        background-color: green; 
+        left: 0px; 
+        top: 0px;}
+
+}

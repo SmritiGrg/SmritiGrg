@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alt{
+    background-color: beige;
+    height: 100vh;
+}
+
+.parent{
+    background-color: pink;
+    padding: 1rem;
+    margin: 1rem;
+    position: relative;
+    height: 200vh;
+}
+
+.child{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.parent div:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.parent div:nth-child(even){
+    background-color: rgb(130, 222, 130);
+}
+
+.first{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+/* .second{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+} */
+
+/* .third{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    margin: 0 1rem;
+}
+
+.fourth{
+    position: sticky;
+    top:100px;
+} */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsiveNav.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="../w3HW/Images/w333-removebg-preview.png" alt="" style="width: 50px; height: 45px;">
+        </div>
+        <div class="right" id="toggler">
+            <ul>
+                <li><a href="" class="nav-items">HOME</a></li>
+                <li><a href="" class="nav-items">ABOUT</a></li>
+                <li><a href="" class="nav-items">SERVICES</a></li>
+                <li><a href="" class="nav-items">PAGES</a></li>
+                <li><a href="" class="nav-items">CONTACT US</a></li>
+                <li>
+                    <a href="" class="nav-items" onclick="toggleMenu(event)">&#9776;</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu(event){
+            event.preventDefault();
+            var x = document.getElementById("toggler");
+            x.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

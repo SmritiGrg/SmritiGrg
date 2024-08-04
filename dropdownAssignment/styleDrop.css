@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav .nav-items{
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul .nav-items:hover{
+    background-color: aliceblue;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropbox{
+    position: absolute;
+    background-color: rgb(195, 195, 243);
+}
+
+.dropbox .nav-items{
+    min-width: 100px;
+}
+
+.dropbox{
+    display: none;
+}
+
+.dropdown:hover .dropbox{
+    display: block;
+}

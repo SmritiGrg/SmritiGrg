@@ -1,0 +1,24 @@
+fieldset{
+    margin: 0 auto;
+    background-image: url(assets/Images/pexels-sudipta-1436102.jpg), radial-gradient(rgba(0, 0, 0, 0.256), rgba(0, 0, 0, 0.59));
+    background-position: 100% 100%;
+    background-size: 900px;
+    background-repeat: no-repeat;
+}
+
+form{
+    text-align: center;
+    color: white;
+}
+
+button{
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color:white; 
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:600px) {
+    
+}
