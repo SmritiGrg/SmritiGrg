@@ -153,3 +153,21 @@ Currently focused on building meaningful products, sharpening my full-stack skil
     alt="Smriti Gurung's GitHub Streak"
   />
 </p>
+
+
+### 🐍 Contribution Activity
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/SmritiGrg/SmritiGrg/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/SmritiGrg/SmritiGrg/output/github-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/SmritiGrg/SmritiGrg/output/github-snake.svg"
+  />
+</picture>
