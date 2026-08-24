@@ -102,23 +102,54 @@ Currently focused on building meaningful products, sharpening my full-stack skil
 
 ### Socials
 
-<p align="left"> <a href="https://www.github.com/SmritiGrg" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.linkedin.com/in/smriti-gurung-a50aba302" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
-### 📊 GitHub Stats
-
 <p align="left">
-  <a href="https://github.com/SmritiGrg">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=SmritiGrg&show_icons=true&count_private=true&title_color=ffffff&text_color=ffffff&icon_color=22c55e&bg_color=27272a&hide_border=true"
-      alt="Smriti Gurung's GitHub Stats"
-    />
+  <a href="https://www.github.com/SmritiGrg" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
+      <img
+        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+        width="32"
+        height="32"
+        alt="GitHub"
+        title="GitHub"
+      />
+    </picture>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://www.linkedin.com/in/smriti-gurung-a50aba302" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
+      <img
+        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+        width="32"
+        height="32"
+        alt="LinkedIn"
+        title="LinkedIn"
+      />
+    </picture>
   </a>
 </p>
 
+### 📊 GitHub Stats
+
 <p align="left">
-  <a href="https://github.com/SmritiGrg">
-    <img
-      src="https://streak-stats.demolab.com?user=SmritiGrg&background=27272A&border=27272A&stroke=FFFFFF&ring=22C55E&fire=22C55E&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&hide_border=true"
-      alt="Smriti Gurung's GitHub Streak"
-    />
-  </a>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=SmritiGrg&show_icons=true&count_private=true&theme=dark&hide_border=true"
+    alt="Smriti Gurung's GitHub Stats"
+  />
+</p>
+
+<p align="left">
+  <img
+    src="https://streak-stats.demolab.com?user=SmritiGrg&theme=dark&hide_border=true"
+    alt="Smriti Gurung's GitHub Streak"
+  />
 </p>
