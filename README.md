@@ -155,7 +155,7 @@ Currently focused on building meaningful products, sharpening my full-stack skil
 </p>
 
 
-### 🐍 Contribution Activity
+### Contribution Activity
 
 <picture>
   <source
